@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite it as below."
+title: "Counter-Evidence Loss in Retrieval-Augmented Generation"
+type: software
+authors:
+  - family-names: "Sampadi"
+    given-names: "Bharath"
+version: "1.0"
+date-released: 2026-09-15
+repository-code: "https://github.com/bksampadi/Counter-Evidence-RAG"
+url: "https://github.com/bksampadi/Counter-Evidence-RAG"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  A proof-of-concept study of counter-evidence loss in RAG. Across six
+  synthetic claims, correctness fell from 6/6 to 0/6 when answer-changing
+  evidence remained available but was not exposed to the generator, while
+  RAGAS Faithfulness stayed at or above 0.917 and a reference-free
+  sufficiency judge rated 18/18 contexts sufficient.
+keywords:
+  - retrieval-augmented generation
+  - RAG
+  - LLM evaluation
+  - counter-evidence
+  - faithfulness
+  - reproducibility
+preferred-citation:
+  type: report
+  title: "Counter-Evidence Loss in Retrieval-Augmented Generation"
+  authors:
+    - family-names: "Sampadi"
+      given-names: "Bharath"
+  year: 2026
+  url: "https://github.com/bksampadi/Counter-Evidence-RAG/blob/main/paper/technical_report.md"
