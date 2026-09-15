@@ -1,0 +1,18 @@
+# Python 3.11 (formal runs used 3.11.15)
+
+# Generation and replication (Groq)
+langchain-core==1.6.1
+langchain-groq==1.1.3
+groq==0.37.1
+pydantic==2.12.5
+PyYAML==6.0.3
+
+# RAGAS evaluation and restoration traces
+# ragas version is taken from the recorded run provenance; the openai client version was not recorded.
+ragas==0.4.3
+openai
+
+# Retrieval (Exp1), Exp2 and external metric validation also require SignalRank-RAG,
+# installed separately from https://github.com/bksampadi/SignalRank-RAG
+# (version 0.2.0, commit bc6dc9d91c653bae782be72fc0220fd77858e027).
+# That environment provided: sentence-transformers==5.7.0, flashrank==0.2.10, torch==2.13.0+cpu
