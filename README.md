@@ -1,5 +1,7 @@
 # Counter-Evidence Loss in Retrieval-Augmented Generation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22810910.svg)](https://doi.org/10.5281/zenodo.22810910)
+
 What happens when evidence capable of correcting an answer exists, but does not reach the generator?
 
 <p align="center">
