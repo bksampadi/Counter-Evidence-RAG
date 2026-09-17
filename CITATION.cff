@@ -2,8 +2,10 @@ cff-version: 1.2.0
 message: "If you use this research artifact, please cite it as below."
 
 title: "Counter-Evidence Loss in Retrieval-Augmented Generation"
-version: "1.0.1"
+version: "1.0.2"
 type: software
+
+doi: "10.5281/zenodo.22810910"
 
 authors:
   - family-names: "Sampadi"
